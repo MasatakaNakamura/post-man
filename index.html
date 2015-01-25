@@ -1,0 +1,58 @@
+<html>
+	<head>
+	    <link rel="stylesheet" type="text/css" href="table.css">
+	    <script>
+	      $(document).ready(function() {
+	          $("#1").clone().prependTo("tbl_tran")
+	      });
+	    </script>
+	</head>
+	<body>
+		<table class="tbl_mast">
+			<tbody>
+			<tr>
+				<th>送付</th>
+				<th>顧客ID</th>
+				<th>部店コード</th>
+				<th>口座番号</th>
+				<th>氏名</th>
+				<th>住所</th>
+				<th>預かり残高</th>
+			</tr>
+			<tr>
+				<td class="td_str"><input type="checkbox" id="1" name="aa" value="1"></td>
+				<td class="td_str">0139284</td>
+				<td class="td_str">Z065</td>
+				<td class="td_str">0123453</td>
+				<td class="td_str">中村匡隆</td>
+				<td class="td_str">東京都足立区保木間5-23-29</td>
+				<td class="td_num">1,234,567,890</td>
+			</tr>
+			<tr>
+				<td class="td_str"><input type="checkbox" id="2" name="aa" value="1"></td>
+				<td class="td_str">0139284</td>
+				<td class="td_str">Z065</td>
+				<td class="td_str">0123453</td>
+				<td class="td_str">中村匡隆</td>
+				<td class="td_str">東京都足立区保木間5-23-29</td>
+				<td class="td_num">1,234,567,890</td>
+			</tr>
+			<tr>
+				<td class="td_str"><input type="checkbox" id="3" name="aa" value="1"></td>
+				<td class="td_str">0139284</td>
+				<td class="td_str">Z065</td>
+				<td class="td_str">0123453</td>
+				<td class="td_str">中村匡隆</td>
+				<td class="td_str">東京都足立区保木間5-23-29</td>
+				<td class="td_num">1,234,567,890</td>
+			</tr>
+			</tbody>
+		</table>
+		<div id="tbl_tran">
+		<table>
+			<tbody>
+			</tbody>
+		</table>
+		</div>
+	</body>
+</html>
